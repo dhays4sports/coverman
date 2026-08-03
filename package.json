@@ -1,0 +1,14 @@
+{
+  "name": "coveragefit",
+  "version": "3.20.7",
+  "private": true,
+  "description": "CoverageFit with privacy-safe new-review producer email alerts, an evidence-aware consultation handoff, normalized Protection Score methodology, Cloudflare Pages Functions and D1, private prospect reports, a server-backed producer inbox, workflow management, and pipeline reporting.",
+  "scripts": {
+    "test": "node RUN_REGRESSION_SUITE.js",
+    "cloudflare:dev": "wrangler pages dev .",
+    "cloudflare:functions:build": "wrangler pages functions build --outdir=.cloudflare/functions-dist"
+  },
+  "devDependencies": {
+    "wrangler": "4.114.0"
+  }
+}
